@@ -152,7 +152,7 @@ nav ul li a:hover {
 
 /* start: hero styles */
 #hero-image {
-    background: url('/Users/sandeep/Desktop/HTML5/DAY 2/image/173px5fw63e81.jpg') top center no-repeat;
+    background: url('image/173px5fw63e81.jpg') top center no-repeat;
     height: 820px;
 }
 
@@ -247,17 +247,17 @@ nav ul li a:hover {
 }
 
 #game-types-boxes .box.new {
-    background: url('/Users/sandeep/Desktop/HTML5/DAY 2/image/FruitNinja.jpeg') top center no-repeat;
+    background: url('image/FruitNinja.jpeg') top center no-repeat;
     background-size: cover;
 }
 
 #game-types-boxes .box.strategy {
-    background: url('/Users/sandeep/Desktop/HTML5/DAY 2/image/AIRHOCKEY.jpeg') top center no-repeat;
+    background: url('image/AIRHOCKEY.jpeg') top center no-repeat;
     background-size: cover;
 }
 
 #game-types-boxes .box.rpg {
-    background: url('/Users/sandeep/Desktop/HTML5/DAY 2/image/capsule_616x353.jpeg') top center no-repeat;
+    background: url('image/capsule_616x353.jpeg') top center no-repeat;
     background-size: cover;
 }
 
@@ -287,7 +287,7 @@ nav ul li a:hover {
 
 /* start: existing games styles */
 #recent-games {
-    background: url('/Users/sandeep/Desktop/HTML5/DAY 2/image/canva-purple-blue-neon-gaming-desktop-backgrounds-PWYZmwkPtUg.jpeg') top center no-repeat;
+    background: url('image/canva-purple-blue-neon-gaming-desktop-backgrounds-PWYZmwkPtUg.jpeg') top center no-repeat;
     background-color: #eef2f6;
     border-top: 1px solid #d6dee7;
     border-bottom: 1px solid #d6dee7;
@@ -334,7 +334,7 @@ nav ul li a:hover {
 
 /* start: upcoming games styles */
 #recent-reviews {
-    background: url('/Users/sandeep/Desktop/HTML5/DAY 2/image/maxresdefault.jpeg') top right no-repeat;
+    background: url('image/maxresdefault.jpeg') top right no-repeat;
     background-size: cover;
     padding: 75px 0 50px;
 }
