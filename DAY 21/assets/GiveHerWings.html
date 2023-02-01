@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta><author></author>
+
+        <title>Give Her Wings</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            #workspace{
+                position: fixed;
+                top:0;
+                bottom: 0;
+                left: 0;    
+                right: 0;
+                margin:auto;
+                border:1px solid #000000;
+                background-image: url("BG.png");
+            }
+            a:link{
+                color:white;
+            }
+            a:visited{
+                color:rgb(132, 113, 255);
+            }
+            a:hover{
+                color: rgb(255, 144, 255);
+            }
+            a:active{
+                color: rgb(98, 255, 239);
+            }
+            #linkTable{
+                position: absolute;
+                top:820px;
+                bottom: 300px;
+                left: 640px;    
+                right: 360px;
+                margin:auto;
+            }
+            .contact{
+                position: absolute;
+                top:675px;
+                bottom: 325px;
+                left: 890px;    
+                right: 110px;
+                margin:auto;
+            }
+            a{
+                font-size: large;
+                padding: 4px;
+            }
+            td{
+                width: 100px;
+                height: 15px;
+                text-align: center;
+            }
+            .username{
+                font-size:medium;
+                color: white;
+            }
+            #number{
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas width="800px" height="600px" id="workspace"></canvas>
+        <table id="linkTable">
+            <tr>
+                <td><a href="https://www.instagram.com/themannatfoundation_/"><i class="fa fa-instagram" style="font-size: 24px;"></i></a>
+                <a href="https://www.facebook.com/themannatfoundation/"><i class="fa fa-facebook-square" style="font-size: 24px;"></i></a>
+                <a href="https://www.youtube.com/channel/UCbqQ3qmo3uWa3HQyYwaqzkw"><i class="fa fa-youtube-play" style="font-size: 24px;"></i></a>
+                <a href="https://www.themannatfoundation.org/"><i class="fa fa-globe" style="font-size: 24px;"></i></a></td>
+                <td><a href="https://www.twitter.com/mannat_ngo"><i class="fa fa-twitter-square" style="font-size: 24px;"></i></a></td>
+            </tr>
+            <tr>
+                <td class="username">themannatfoundation_</td>
+                <td class="username">mannat_ngo</td>
+            </tr>
+        </table>
+        <div class="contact">
+            <table>
+                <tr>
+                    <td style="width: 170px;" id="number"><i class="fa fa-phone" style="font-size:24px; color: white; padding-right: 5px;"></i>
+                    <a href="tel:+917909461961">+917909461961</a></td>
+                </tr>
+                <tr>
+                    <td style="width: 270px;"><i class="fa fa-envelope" style="font-size:24px; color: white; padding-right: 5px;"></i>
+                    <a href="mailto:info@themannatfoundation.org">info@themannatfoundation.org</a></td>
+                </tr>
+            </table>
+        </div>
+        <script>
+            var workspace=document.getElementById("workspace");
+            var ctx = workspace.getContext("2d");
+
+            var grad=ctx.createLinearGradient(0,0,300,300);
+            grad.addColorStop(0,"#FF009E");
+            grad.addColorStop(1,"#B900FF");
+
+            var bGrad=ctx.createLinearGradient(0,0,550,550);
+            bGrad.addColorStop(0,"black");
+            bGrad.addColorStop(1,"#4B4B4B");
+
+            //Heading Box
+            ctx.moveTo(175,5);
+            ctx.roundRect(225,20,565,85,30);
+            ctx.strokeStyle=grad;
+            ctx.fillStyle=grad;
+            ctx.stroke();
+            ctx.fill();
+            ctx.closePath();
+
+            //Heading Formatting
+            ctx.beginPath();
+            ctx.arc(750,130,20,0,2*Math.PI);
+            ctx.stroke();
+            ctx.fill();
+            ctx.moveTo(720,160);
+            ctx.arc(720,160,15,0,2*Math.PI);
+            ctx.stroke();
+            ctx.fill();
+            ctx.moveTo(695,185);
+            ctx.arc(695,185,10,0,2*Math.PI);
+            ctx.stroke();
+            ctx.fill();
+            ctx.closePath();
+
+            //Heading
+            ctx.font="45px Comic Sans MS";
+            ctx.fillStyle="orange";
+            ctx.textAlign="right";
+            ctx.fillText("Help Us Empower Women",775, 75);
+
+            //Footer Box
+            ctx.beginPath();
+            ctx.moveTo(200,600);
+            ctx.lineTo(350,500);
+            ctx.lineTo(800,500);
+            ctx.lineTo(800,600);
+            ctx.closePath();
+            ctx.lineWidth=1;
+            ctx.strokeStyle=bGrad;
+            ctx.fillStyle=bGrad;
+            ctx.stroke();
+            ctx.fill();
+
+            //Punch Line
+            ctx.font="45px Brush Script MT";
+            ctx.fillStyle="#BD00FF";
+            ctx.textAlign="right";
+            ctx.fillText("Women Education is the Key",500, 270);
+
+            ctx.font="45px Brush Script MT";
+            ctx.fillStyle="#BD00FF";
+            ctx.textAlign="right";
+            ctx.fillText("to Development and",500, 310);
+
+            ctx.font="45px Brush Script MT";
+            ctx.fillStyle="#BD00FF";
+            ctx.textAlign="right";
+            ctx.fillText("Prosperity",500, 350);
+
+            //Foundation
+            ctx.font = "25px Fantasy";
+            ctx.fillStyle="#9D3AC0";
+            ctx.textAlign="right";
+            ctx.fillText("-The Mannat Foundation",500, 380);
+
+            //#
+            ctx.font = "25px Fantasy";
+            ctx.fillStyle="#9D3AC0";
+            ctx.textAlign="right";
+            ctx.fillText("#Give_Her_Wings",500, 410);
+
+            //Image Right
+            var rightImage =new Image();
+            rightImage.src='subjectImg.png';
+            rightImage.onload =function(){
+                ctx.drawImage(rightImage,515,178,280,321);    
+            }
+
+            //Foundation Logo
+            var FoundationImage =new Image();
+            FoundationImage.src='Logo.png';
+            FoundationImage.onload =function(){
+                ctx.drawImage(FoundationImage,10,10,200,200);    
+            }
+
+            //Find Us
+            ctx.font = "20px Arial";
+            ctx.fillStyle="white";
+            ctx.textAlign="right";
+            ctx.fillText("Find Us", 420, workspace.height - 80);
+
+            //Line
+            ctx.beginPath();
+            ctx.moveTo(workspace.width-267,workspace.height-100);
+            ctx.lineTo(workspace.width-267,workspace.height);
+            ctx.strokeStyle="white";
+            ctx.stroke();
+
+            //Contact Us
+            ctx.font = "20px Arial";
+            ctx.fillStyle="white";
+            ctx.textAlign="right";
+            ctx.fillText("Contact Us", workspace.width - 165, workspace.height - 80);
+
+            var contactDiv=document.getElementById("contact");
+            contactDiv.style.left=workspace.width-200;
+            contactDiv.style.left=workspace.width-100;
+        </script>
+    </body>
+</html>

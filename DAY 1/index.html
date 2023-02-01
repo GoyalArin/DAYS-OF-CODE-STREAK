@@ -1,0 +1,112 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style> 
+h1 {
+    color: #0e42ec;
+} 
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-image: url('music.jpeg');  
+}  
+.container {  
+    padding: 50px;   
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 50%;  
+  padding: 5px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #cbcccb;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: #e0f597;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 50%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body> 
+   <center> <img src="images.png"> </center>
+<form>  
+  <div class="container">  
+  <center>  <h1> MUSIC CLUB MEMBERSHIP</h1> </center>  
+  <hr>  
+  <label> Firstname </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required /><br>      
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required /> <br> 
+<div>  
+    <label for="Registration No."><b>Registration No.</b></label>  
+ <input type="text" placeholder="Enter Reg. No." name="Reg. no." required>  
+    </div> 
+<div>  
+<label>   
+
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div> <br> 
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+<input type="text" name="phone" placeholder="phone no." size="10"/ required> <br>  
+Residential Address : <br> 
+<textarea cols="80" rows="5" placeholder="Residential Address" value="address" required>  
+</textarea>  <br>
+ <label for="email"><b>Email ID:</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required> <br>
+ <label>  
+Course :  
+</label>   
+  
+<select>  
+<option value="Course">Course</option>   
+<option value="B.Tech">B.Tech</option>  
+<option value="M.Tech">M.Tech</option> 
+<option value="B.Arch">B. Arch</option> 
+<option value="Integrated M.Tech">Integrated M.Tech</option> 
+</select>  
+</div> 
+<label>  
+    Music Type You Love 
+    </label>   
+      
+    <select>  
+    <option value="Folk">FOLK</option>   
+    <option value="classical">CLASSICAL</option>  
+    <option value="western">WESTERN</option> 
+    <option value="instumental">INSTUMENTAL</option> 
+    <option value="bollywood">BOLLYWOOD</option> 
+    </select>  
+    </div> <br> 
+<button type="submit" class="registerbtn">Register</button> 
+</form>  
+</body>  
+</html>  
