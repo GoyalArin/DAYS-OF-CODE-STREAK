@@ -1,4 +1,4 @@
-# Hello, Arin Goyal here!
+# Hello, Arin Goyal here!👋
 I have created this repository for my 30 days of code streak challenge. Here are my all the projects for this challenge.
 # PROJECTS
 |Day|Project Name|
