@@ -24,3 +24,4 @@ I have created this repository for my 30 days of code streak challenge. Here are
 |19|[Pokemon Cards Creator](https://arinspokemoncards.netlify.app/)|
 |20|[CAR RACING GAME](https://arinscarracinggame.netlify.app/)|
 |21|[NGO PROJECT](https://vansh09122003.github.io/Women-Empowerment-Advertisment/)|
+|21|[GAME JAM](https://vansh09122003.github.io/Puzzly-Eco/)|
