@@ -25,3 +25,4 @@ I have created this repository for my 30 days of code streak challenge. Here are
 |20|[CAR RACING GAME](https://arinscarracinggame.netlify.app/)|
 |21|[NGO PROJECT](https://vansh09122003.github.io/Women-Empowerment-Advertisment/)|
 |22|[GAME JAM](https://vansh09122003.github.io/Puzzly-Eco/)|
+|23|[BMI CALCULATOR](https://arinsbmicalculator.netlify.app/)|
