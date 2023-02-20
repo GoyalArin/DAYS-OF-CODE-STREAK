@@ -1,5 +1,5 @@
 # Hello, Arin Goyal here!👋
-I have created this repository for my 30 days of code streak challenge. Here are my all the projects for this challenge.
+I have created this repository for my 20 days of code streak challenge. Here are my all the projects for this challenge.
 # PROJECTS
 |Day|Project Name|
 |-----|----------------|
@@ -23,6 +23,5 @@ I have created this repository for my 30 days of code streak challenge. Here are
 |18|[CURRENCY CONVERTER](https://arinscurrencyconverter.netlify.app/)|
 |19|[Pokemon Cards Creator](https://arinspokemoncards.netlify.app/)|
 |20|[CAR RACING GAME](https://arinscarracinggame.netlify.app/)|
-|21|[NGO PROJECT](https://vansh09122003.github.io/Women-Empowerment-Advertisment/)|
-|22|[GAME JAM](https://vansh09122003.github.io/Puzzly-Eco/)|
-|23|[BMI CALCULATOR](https://arinsbmicalculator.netlify.app/)|
+|PROJECT 1|[NGO PROJECT](https://vansh09122003.github.io/Women-Empowerment-Advertisment/)|
+|PROJECT 2|[GAME JAM](https://vansh09122003.github.io/Puzzly-Eco/)|
